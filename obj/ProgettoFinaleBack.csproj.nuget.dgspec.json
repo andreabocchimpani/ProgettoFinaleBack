@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\user\\source\\repos\\ProgettoFinaleBack\\ProgettoFinaleBack\\ProgettoFinaleBack.csproj": {}
+    "C:\\Users\\user\\Desktop\\ProgettoFinaleBack\\ProgettoFinaleBack\\ProgettoFinaleBack.csproj": {}
   },
   "projects": {
-    "C:\\Users\\user\\source\\repos\\ProgettoFinaleBack\\ProgettoFinaleBack\\ProgettoFinaleBack.csproj": {
+    "C:\\Users\\user\\Desktop\\ProgettoFinaleBack\\ProgettoFinaleBack\\ProgettoFinaleBack.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\user\\source\\repos\\ProgettoFinaleBack\\ProgettoFinaleBack\\ProgettoFinaleBack.csproj",
+        "projectUniqueName": "C:\\Users\\user\\Desktop\\ProgettoFinaleBack\\ProgettoFinaleBack\\ProgettoFinaleBack.csproj",
         "projectName": "ProgettoFinaleBack",
-        "projectPath": "C:\\Users\\user\\source\\repos\\ProgettoFinaleBack\\ProgettoFinaleBack\\ProgettoFinaleBack.csproj",
+        "projectPath": "C:\\Users\\user\\Desktop\\ProgettoFinaleBack\\ProgettoFinaleBack\\ProgettoFinaleBack.csproj",
         "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\user\\source\\repos\\ProgettoFinaleBack\\ProgettoFinaleBack\\obj\\",
+        "outputPath": "C:\\Users\\user\\Desktop\\ProgettoFinaleBack\\ProgettoFinaleBack\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -37,6 +37,12 @@
       },
       "frameworks": {
         "netcoreapp3.0": {
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[3.1.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
