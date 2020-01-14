@@ -8,6 +8,7 @@ using Microsoft.AspNetCore.HttpsPolicy;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
+using Microsoft.AspNetCore.Cors;
 
 namespace ProgettoFinaleBack
 {
@@ -26,6 +27,15 @@ namespace ProgettoFinaleBack
             services.AddControllersWithViews();
             services.AddDbContext<ProgettoFinaleContext>();
 
+            services.AddCors(options =>
+            {
+                options.AddPolicy("CorsPolicy",
+                    builder => builder.AllowAnyOrigin()
+                    );
+            });
+
+
+
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -41,6 +51,9 @@ namespace ProgettoFinaleBack
                 // The default HSTS value is 30 days. You may want to change this for production scenarios, see https://aka.ms/aspnetcore-hsts.
                 app.UseHsts();
             }
+
+            app.UseCors("CorsPolicy"); // l'ho aggiunto io
+
             app.UseHttpsRedirection();
             app.UseStaticFiles();
 

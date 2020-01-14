@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\user\\Desktop\\ProgettoFinaleBack\\ProgettoFinaleBack\\ProgettoFinaleBack.csproj": {}
+    "C:\\Users\\ANDREA\\Desktop\\progettoFinale\\ProgettoFinaleBack-master\\ProgettoFinaleBack.csproj": {}
   },
   "projects": {
-    "C:\\Users\\user\\Desktop\\ProgettoFinaleBack\\ProgettoFinaleBack\\ProgettoFinaleBack.csproj": {
+    "C:\\Users\\ANDREA\\Desktop\\progettoFinale\\ProgettoFinaleBack-master\\ProgettoFinaleBack.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\user\\Desktop\\ProgettoFinaleBack\\ProgettoFinaleBack\\ProgettoFinaleBack.csproj",
+        "projectUniqueName": "C:\\Users\\ANDREA\\Desktop\\progettoFinale\\ProgettoFinaleBack-master\\ProgettoFinaleBack.csproj",
         "projectName": "ProgettoFinaleBack",
-        "projectPath": "C:\\Users\\user\\Desktop\\ProgettoFinaleBack\\ProgettoFinaleBack\\ProgettoFinaleBack.csproj",
-        "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\user\\Desktop\\ProgettoFinaleBack\\ProgettoFinaleBack\\obj\\",
+        "projectPath": "C:\\Users\\ANDREA\\Desktop\\progettoFinale\\ProgettoFinaleBack-master\\ProgettoFinaleBack.csproj",
+        "packagesPath": "C:\\Users\\ANDREA\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ANDREA\\Desktop\\progettoFinale\\ProgettoFinaleBack-master\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\ANDREA\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -38,6 +38,10 @@
       "frameworks": {
         "netcoreapp3.0": {
           "dependencies": {
+            "Microsoft.AspNet.WebApi.Cors": {
+              "target": "Package",
+              "version": "[5.2.7, )"
+            },
             "Microsoft.EntityFrameworkCore.Design": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",

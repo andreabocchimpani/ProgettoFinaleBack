@@ -6,11 +6,14 @@ using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using ProgettoFinaleBack;
+using Microsoft.AspNetCore.Cors;
+
 
 namespace ProgettoFinaleBack.Controllers
 {
     [Route("api/[controller]")]
-    [ApiController]
+    [EnableCors("CorsPolicy")]
+    
     public class MailsController : ControllerBase
     {
         private readonly ProgettoFinaleContext _context;
