@@ -9,6 +9,9 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.AspNetCore.Cors;
+using Microsoft.EntityFrameworkCore;
+using ProgettoFinaleBack.Models.Repositories.Abstractions;
+using ProgettoFinaleBack.Models.Repositories.Implementations;
 
 namespace ProgettoFinaleBack
 {
@@ -24,6 +27,10 @@ namespace ProgettoFinaleBack
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
+            //services.AddDbContext<ProgettoFinaleContext>(opts => opts.UseSqlServer(
+            //   Configuration.GetConnectionString("Data Source=(localdb)\\MSSQLLocalDB")));
+
+            services.AddTransient<MailCrud, EFMailCrud>();
             services.AddControllersWithViews();
             services.AddDbContext<ProgettoFinaleContext>();
 

@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\ANDREA\\Desktop\\progettoFinale\\ProgettoFinaleBack-master\\ProgettoFinaleBack.csproj": {}
+    "C:\\Users\\user\\Desktop\\ProgettoFinaleBack\\ProgettoFinaleBack.csproj": {}
   },
   "projects": {
-    "C:\\Users\\ANDREA\\Desktop\\progettoFinale\\ProgettoFinaleBack-master\\ProgettoFinaleBack.csproj": {
+    "C:\\Users\\user\\Desktop\\ProgettoFinaleBack\\ProgettoFinaleBack.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ANDREA\\Desktop\\progettoFinale\\ProgettoFinaleBack-master\\ProgettoFinaleBack.csproj",
+        "projectUniqueName": "C:\\Users\\user\\Desktop\\ProgettoFinaleBack\\ProgettoFinaleBack.csproj",
         "projectName": "ProgettoFinaleBack",
-        "projectPath": "C:\\Users\\ANDREA\\Desktop\\progettoFinale\\ProgettoFinaleBack-master\\ProgettoFinaleBack.csproj",
-        "packagesPath": "C:\\Users\\ANDREA\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ANDREA\\Desktop\\progettoFinale\\ProgettoFinaleBack-master\\obj\\",
+        "projectPath": "C:\\Users\\user\\Desktop\\ProgettoFinaleBack\\ProgettoFinaleBack.csproj",
+        "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\user\\Desktop\\ProgettoFinaleBack\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\ANDREA\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
