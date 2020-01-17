@@ -37,7 +37,7 @@ namespace ProgettoFinaleBack
             services.AddCors(options =>
             {
                 options.AddPolicy("CorsPolicy",
-                    builder => builder.AllowAnyOrigin()
+                    builder => builder.AllowAnyOrigin().AllowAnyHeader().AllowAnyMethod()
                     );
             });
 

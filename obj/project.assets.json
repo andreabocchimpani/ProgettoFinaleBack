@@ -8363,11 +8363,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\user\\Desktop\\ProgettoFinaleBack\\ProgettoFinaleBack.csproj",
+      "projectUniqueName": "C:\\Users\\user\\Desktop\\Corso Di Programmazione\\5 - Progetto Finale\\ProgettoFinaleBack\\ProgettoFinaleBack.csproj",
       "projectName": "ProgettoFinaleBack",
-      "projectPath": "C:\\Users\\user\\Desktop\\ProgettoFinaleBack\\ProgettoFinaleBack.csproj",
+      "projectPath": "C:\\Users\\user\\Desktop\\Corso Di Programmazione\\5 - Progetto Finale\\ProgettoFinaleBack\\ProgettoFinaleBack.csproj",
       "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\user\\Desktop\\ProgettoFinaleBack\\obj\\",
+      "outputPath": "C:\\Users\\user\\Desktop\\Corso Di Programmazione\\5 - Progetto Finale\\ProgettoFinaleBack\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -8433,6 +8433,16 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
+        "downloadDependencies": [
+          {
+            "name": "Microsoft.AspNetCore.App.Ref",
+            "version": "[3.0.1, 3.0.1]"
+          },
+          {
+            "name": "Microsoft.NETCore.App.Host.win-x64",
+            "version": "[3.0.1, 3.0.1]"
+          }
+        ],
         "frameworkReferences": {
           "Microsoft.AspNetCore.App": {
             "privateAssets": "none"
@@ -8441,7 +8451,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.100\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.100\\RuntimeIdentifierGraph.json"
       }
     }
   },
