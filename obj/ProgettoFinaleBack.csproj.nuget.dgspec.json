@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\user\\Desktop\\Corso Di Programmazione\\5 - Progetto Finale\\ProgettoFinaleBack\\ProgettoFinaleBack.csproj": {}
+    "C:\\Users\\an_dr\\Desktop\\PROGETTOFINALE\\ProgettoFinaleBack\\ProgettoFinaleBack.csproj": {}
   },
   "projects": {
-    "C:\\Users\\user\\Desktop\\Corso Di Programmazione\\5 - Progetto Finale\\ProgettoFinaleBack\\ProgettoFinaleBack.csproj": {
+    "C:\\Users\\an_dr\\Desktop\\PROGETTOFINALE\\ProgettoFinaleBack\\ProgettoFinaleBack.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\user\\Desktop\\Corso Di Programmazione\\5 - Progetto Finale\\ProgettoFinaleBack\\ProgettoFinaleBack.csproj",
+        "projectUniqueName": "C:\\Users\\an_dr\\Desktop\\PROGETTOFINALE\\ProgettoFinaleBack\\ProgettoFinaleBack.csproj",
         "projectName": "ProgettoFinaleBack",
-        "projectPath": "C:\\Users\\user\\Desktop\\Corso Di Programmazione\\5 - Progetto Finale\\ProgettoFinaleBack\\ProgettoFinaleBack.csproj",
-        "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\user\\Desktop\\Corso Di Programmazione\\5 - Progetto Finale\\ProgettoFinaleBack\\obj\\",
+        "projectPath": "C:\\Users\\an_dr\\Desktop\\PROGETTOFINALE\\ProgettoFinaleBack\\ProgettoFinaleBack.csproj",
+        "packagesPath": "C:\\Users\\an_dr\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\an_dr\\Desktop\\PROGETTOFINALE\\ProgettoFinaleBack\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\an_dr\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -84,7 +84,15 @@
             },
             {
               "name": "Microsoft.NETCore.App.Host.win-x64",
-              "version": "[3.0.1, 3.0.1]"
+              "version": "[3.0.2, 3.0.2]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[3.0.0, 3.0.0]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[3.0.0, 3.0.0]"
             }
           ],
           "frameworkReferences": {
@@ -95,7 +103,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
         }
       }
     }
